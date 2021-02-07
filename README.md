@@ -1,12 +1,12 @@
 # Sentiment analysis on text imdb data corpus
-### Following are removed before embedding step:
->> html tags, non-english characters, numbers, stop words(optional).
+1. Data Cleaning :
+* HTML tags, non-english characters, numbers, stop words(optional).
 
-### Methods used for word embedding:
->> BERT, word2vec, BOW, TF-IDF 
+2. Word Embedding[prepare_data.ipynb](https://github.com/Swiman/sentiment_analysis/blob/main/1-prepare_data.ipynb)::
+* BERT, word2vec, BOW, TF-IDF 
 
-### Classifiers:
->> NB, SVM, DT, RF
+3. Classifiers[prepare_data.ipynb](https://github.com/Swiman/sentiment_analysis/blob/main/1-prepare_data.ipynb)::
+* NB, SVM, DT, RF
 
-### Evaluation:
->> Confusion Matrix, ROC, AUC, Precision, Recall, F1 score
+4. Evaluation[prepare_data.ipynb](https://github.com/Swiman/sentiment_analysis/blob/main/1-prepare_data.ipynb)::
+* Confusion Matrix, ROC, AUC, Precision, Recall, F1 score
